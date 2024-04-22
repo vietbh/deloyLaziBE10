@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=//home/lazistore/public_html/
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH.
